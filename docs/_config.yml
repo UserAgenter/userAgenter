@@ -2,7 +2,7 @@ title: UserAgenter
 logo: /assets/img/logo.png
 description: Generated Random User Agent Without Repeat and Scrap Proxy (Auto update).
 show_downloads: true
-theme: jekyll-theme-tactile
+theme: jekyll-theme-hacker
 github:
   zip_url: https://github.com/UserAgenter/userAgenter/archive/refs/heads/main.zip
   another_url: https://github.com/UserAgenter/userAgenter/releases/download/v1.3.1/UserAgenter-1.3.1.tar.gz

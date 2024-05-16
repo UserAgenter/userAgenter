@@ -8,6 +8,22 @@ Scrap New Update Proxy with `http`, `socks4` and `sock5` type . all proxy addres
 
 all proxy list use : [ProxyScraper/ProxyScraper](https://github.com/ProxyScraper/ProxyScraper 'proxy scraper')
 
+---
+
+### Install With PIP
+
+Windows :
+
+```bash
+pip install UserAgenter
+```
+
+Linux & Mac :
+
+```bash
+pip3 install UserAgenter
+```
+
 
 ---
 ### Use User Agent Generator
@@ -100,6 +116,29 @@ ua = UserAgent()
 # Opera User Agent 
 random_opera_agent = ua.RandomOperaAgent()
 ```
+
+---
+
+#### Generated Random User Agent for firefox , chrome , safari , opera , edge and android 
+
+```python
+from UserAgenter import UserAgent
+# class for generate random user agent
+agent = UserAgent()
+# firefox user agent
+firefox = agent.RandomAgent(browser="firefox")
+# chrome user agent
+chrome = agent.RandomAgent(browser="chrome")
+# safari user agent
+safari = agent.RandomAgent(browser="safari")
+# opera user agent
+opera = agent.RandomAgent(browser="opera")
+# edge user agent
+edge = agent.RandomAgent(browser="edge")
+# android user agent
+android = agent.RandomAgent("android")
+```
+
 
 ### Use Proxy
 

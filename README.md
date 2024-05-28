@@ -10,7 +10,7 @@ generated random user agent for any web browser and os `firefox` , `chrome` , `e
 
 Scrap New Update Proxy with `http`, `socks4` and `sock5` type . all proxy address auto update per hour after request.
 
-all proxy list use : [ProxyScraper/ProxyScraper](https://github.com/ProxyScraper/ProxyScraper 'proxy scraper')
+all proxy list use : [ProxyScraper](https://proxyscraper.readthedocs.io/en/latest/ 'proxy scraper')
 
 ---
 
